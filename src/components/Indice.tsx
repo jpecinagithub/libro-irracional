@@ -43,10 +43,6 @@ export default function Indice() {
           </div>
         ))}
       </div>
-
-      <div className="mt-6 rounded-2xl border border-slate-200 bg-slate-50 px-6 py-5">
-        <p className="text-sm text-slate-700"><span className="font-medium">Bibliografía extensa</span> · Dei Verbum, Fides et ratio, Gaudium et spes, Catecismo, Benedicto XVI, Juan Pablo II, Teresa de Lisieux, Jacques Philippe… <span className="text-slate-500">— págs 94–97</span></p>
-      </div>
     </section>
   );
 }

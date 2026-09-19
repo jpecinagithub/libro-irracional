@@ -8,7 +8,6 @@ export default function Autor() {
               <img src="/jpecina.jpg" alt="Jon Peciña Iturbe" className="h-full w-full object-cover" />
             </div>
             <div className="mt-4 flex gap-2">
-              <a href="https://www.linkedin.com/in/jpecina/?locale=en" target="_blank" rel="noreferrer" className="inline-flex items-center rounded-full border border-slate-200 px-3 py-1.5 text-xs font-medium hover:bg-slate-50">LinkedIn</a>
               <span className="inline-flex items-center rounded-full bg-amber-50 border border-amber-200 px-3 py-1.5 text-xs font-medium text-amber-700">Autor</span>
             </div>
           </div>

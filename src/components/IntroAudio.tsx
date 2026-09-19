@@ -68,32 +68,21 @@ export default function IntroAudio() {
               </div>
             )}
 
-            <button onClick={()=>setShowTranscript(s=>!s)} className="mt-6 text-sm font-medium text-slate-900 underline decoration-slate-300 underline-offset-4">
-              {showTranscript ? "Ocultar transcripción" : "Ver transcripción"}
-            </button>
-            {showTranscript && (
-              <div className="mt-4 max-h-[320px] overflow-auto rounded-xl border border-slate-200 bg-slate-50 p-5 text-xs leading-relaxed text-slate-700 whitespace-pre-wrap">
-                {transcript}
-              </div>
-            )}
           </div>
 
           <div className="bg-slate-50 border-t lg:border-t-0 lg:border-l border-slate-200 p-6 md:p-8">
-            <p className="text-xs tracking-[0.18em] font-semibold text-slate-500">PARA LLEVARLO A LA VIDA</p>
-            <ul className="mt-4 space-y-3">
-              {[
-                "¿Qué enseñanza de Jesús he reducido para hacerla compatible con mis criterios?",
-                "¿Confundo misterio con contradicción, o fe con ausencia de pensamiento?",
-                "¿Qué imagen demasiado pequeña de Dios se está cayendo en mi vida?",
-                "¿Hay una palabra del Evangelio que solo comprenderé si comienzo a vivirla?",
-              ].map(q=> (
-                <li key={q} className="flex gap-3 rounded-xl border border-slate-200 bg-white px-4 py-3">
-                  <input type="checkbox" className="mt-1 accent-slate-900" />
-                  <span className="text-sm text-slate-700 leading-relaxed">{q}</span>
-                </li>
-              ))}
-            </ul>
-            <p className="text-xs text-slate-500 mt-4">Marca las preguntas que quieras llevar a la oración. Se guardan solo en tu navegador (local, sin backend).</p>
+            <p className="text-xs tracking-[0.18em] font-semibold text-slate-500">TRANSCRIPCIÓN</p>
+            <p className="text-sm text-slate-600 mt-2 leading-relaxed">Texto íntegro de la introducción (págs 1–6). Léelo mientras escuchas el audio.</p>
+            <button onClick={()=>setShowTranscript(s=>!s)} className="mt-4 inline-flex items-center rounded-full bg-slate-900 px-5 py-2 text-sm font-medium text-white hover:bg-black">
+              {showTranscript ? "Ocultar transcripción" : "Ver transcripción"}
+            </button>
+            {showTranscript ? (
+              <div className="mt-4 max-h-[420px] overflow-auto rounded-xl border border-slate-200 bg-white p-5 text-xs leading-relaxed text-slate-700 whitespace-pre-wrap">
+                {transcript}
+              </div>
+            ) : (
+              <p className="text-xs text-slate-500 mt-4">Pulsa el botón para ver el texto completo.</p>
+            )}
           </div>
         </div>
       </div>
