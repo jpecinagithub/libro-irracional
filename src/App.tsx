@@ -4,7 +4,6 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Indice from "./components/Indice";
 import IntroAudio from "./components/IntroAudio";
-import ParadoxCarousel from "./components/ParadoxCarousel";
 import Resena from "./components/Resena";
 
 export default function App() {
@@ -17,7 +16,6 @@ export default function App() {
           <div className="h-px bg-slate-200" />
         </div>
         <Resena />
-        <ParadoxCarousel />
         <Indice />
         <IntroAudio />
         <Autor />
