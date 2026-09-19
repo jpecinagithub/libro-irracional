@@ -12,7 +12,7 @@ export default function Header() {
           <a href="#intro" className="hover:text-slate-900">Introducción</a>
           <a href="#autor" className="hover:text-slate-900">Autor</a>
         </nav>
-        <a href="#intro" className="inline-flex items-center rounded-full bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:bg-black">Descargar / Escuchar</a>
+        <a href="#intro" className="inline-flex items-center rounded-full bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:bg-black">Descargar</a>
       </div>
     </header>
   );
