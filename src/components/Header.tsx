@@ -11,8 +11,12 @@ export default function Header() {
           <a href="#indice" className="hover:text-slate-900">Índice</a>
           <a href="#intro" className="hover:text-slate-900">Introducción</a>
           <a href="#autor" className="hover:text-slate-900">Autor</a>
+          <a href="https://www.amazon.es/dp/B0HJSS7NZM" target="_blank" rel="noreferrer" className="hover:text-slate-900">Comprar</a>
         </nav>
-        <a href="#intro" className="inline-flex items-center rounded-full bg-slate-900 px-4 py-2 text-sm font-medium text-white hover:bg-black">Descargar</a>
+        <div className="flex items-center gap-2">
+          <a href="#intro" className="hidden sm:inline-flex items-center rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-900 hover:bg-slate-50">Descargar</a>
+          <a href="https://www.amazon.es/dp/B0HJSS7NZM" target="_blank" rel="noreferrer" className="inline-flex items-center rounded-full bg-amber-500 px-4 py-2 text-sm font-medium text-white hover:bg-amber-600">Comprar</a>
+        </div>
       </div>
     </header>
   );
