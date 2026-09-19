@@ -15,17 +15,17 @@ export default function Autor() {
           <div>
             <p className="text-xs tracking-[0.2em] font-semibold text-amber-600">EL AUTOR</p>
             <h2 className="font-serif text-3xl mt-2 text-slate-900">Jon Peciña Iturbe</h2>
-            <p className="text-sm text-slate-500 mt-1">Finance Manager · Universidad Pontificia Comillas · Autor de “El mensaje de Cristo es irracional”</p>
+            <p className="text-sm text-slate-500 mt-1">Finance Manager · Experiencia internacional Perú y Países Bajos · Autor de “El mensaje de Cristo es irracional”</p>
 
             <div className="mt-5 space-y-4 text-[15px] leading-relaxed text-slate-600">
               <p>
-                <strong className="text-slate-900">Jon Peciña Iturbe</strong> es Finance Manager en <strong className="text-slate-900">Surexport</strong> con más de 20 años de experiencia en contabilidad y controlling. Ingeniero de formación y vinculado a la <strong className="text-slate-900">Universidad Pontificia Comillas</strong>, combina su trayectoria en empresa con una reflexión sostenida sobre fe, cultura y tecnología.
+                <strong className="text-slate-900">Jon Peciña Iturbe</strong> es Finance Manager con experiencia internacional en Perú y Países Bajos. Ingeniero de formación, combina su trayectoria en empresa con una reflexión sostenida sobre fe, cultura y tecnología.
               </p>
               <p>
-                En LinkedIn y en sus escritos aborda temas como inteligencia artificial, educación, literatura y el sentido del trabajo —siempre con una mirada humanista que busca el fondo de las cosas—, y es peregrino del Camino de Santiago (Logroño–Santiago en bicicleta, 623 km). Residente en La Rioja, lector apasionado y observador atento de la vida cotidiana.
+                En sus escritos aborda temas como inteligencia artificial, educación, literatura y el sentido del trabajo. Lector apasionado y observador atento de la vida cotidiana.
               </p>
               <p>
-                En <em>El mensaje de Cristo es irracional</em> se atreve a una pregunta incómoda que recorre todo el libro: ¿nos hemos acostumbrado demasiado a Cristo? Con un estilo accesible, apoyado en el Catecismo, la Escritura y autores como Benedicto XVI, Juan Pablo II o Jacques Philippe, invita a redescubrir la lógica sobrenatural que —lejos de ser un engaño consolador— entra en la historia, carga con la Cruz y abre a una vida que no podemos darnos solos.
+                En <em>El mensaje de Cristo es irracional</em> presenta una pregunta incómoda que recorre todo el libro: ¿nos hemos acostumbrado demasiado a Cristo? Con un estilo accesible, apoyado en el Catecismo, la Escritura y autores como Benedicto XVI, Juan Pablo II o Jacques Philippe, invita a redescubrir la lógica sobrenatural que entra en la historia y abre las puertas a una vida que no podemos darnos a nosotros mismos.
               </p>
             </div>
 

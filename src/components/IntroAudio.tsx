@@ -94,19 +94,6 @@ export default function IntroAudio() {
               ))}
             </ul>
             <p className="text-xs text-slate-500 mt-4">Marca las preguntas que quieras llevar a la oración. Se guardan solo en tu navegador (local, sin backend).</p>
-            <div className="mt-6 rounded-2xl bg-white border border-slate-200 p-5">
-              <p className="text-xs tracking-[0.16em] font-semibold text-amber-600">CÓMO GENERAR EL AUDIO (OPEN-SOURCE)</p>
-              <pre className="mt-2 text-[11px] leading-relaxed bg-slate-900 text-slate-100 rounded-xl p-4 overflow-auto">{`# Piper TTS (MIT) — es_ES-sharvard-medium
-piper -m es_ES-sharvard-medium.onnx \\
-  --output_file public/intro.mp3 \\
-  < public/intro.txt
-
-# Alternative: edge-tts
-edge-tts --voice es-ES-ElviraNeural \\
-  --write-media public/intro.mp3 \\
-  --file public/intro.txt`}</pre>
-              <p className="text-xs text-slate-500 mt-2">Stack: Vite + React, sin backend, desplegable en Vercel. PDF y MP3 estáticos.</p>
-            </div>
           </div>
         </div>
       </div>
